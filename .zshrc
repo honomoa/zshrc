@@ -63,6 +63,7 @@ plugins=(
   git
   docker
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -119,7 +120,7 @@ export NVM_DIR="$HOME/.nvm"
 export PYTHONPATH=${HOMEBREW_PREFIX}/lib/python2.7/site-packages
 
 # For powerlevel9k
-#POWERLEVEL9K_MODE='nerdfont-complete'
-POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_MODE='nerdfont-complete'
+#POWERLEVEL9K_MODE='awesome-fontconfig'
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir dir_writable nvm vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status public_ip time)
